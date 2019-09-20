@@ -1,6 +1,6 @@
 # reader-notes
 
-## Hi
+## Say Hi
 
 如果有任何疑问或错误，欢迎在 Issues 进行提问或给予修正意见
 
