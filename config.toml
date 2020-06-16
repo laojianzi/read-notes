@@ -5,5 +5,7 @@ title = "Laojianzi Read Notes"
 theme = "book"
 disablePathToLower = true
 enableGitInfo = true
-BookRepo = "https://github.com/laojianzi/read-notes"
 disqusShortname = "Laojianzi"
+
+[params]
+    BookRepo = "https://github.com/laojianzi/read-notes"
