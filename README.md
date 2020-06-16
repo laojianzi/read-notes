@@ -1,5 +1,9 @@
 # reader-notes
 
+网名 **Laojianzi**
+
+记录一些阅读希望能对大家有所帮助
+
 ## Say Hi
 
 如果有任何疑问或错误，欢迎在 Issues 进行提问或给予修正意见

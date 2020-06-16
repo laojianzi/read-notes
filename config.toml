@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "zh-cn"
+title = "Laojianzi Read Notes"
+
+theme = "book"
+disablePathToLower = true
+enableGitInfo = true
+BookRepo = "https://github.com/laojianzi/read-notes"
+disqusShortname = "Laojianzi"
