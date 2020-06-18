@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laojianzi Read Notes</title>
-    <link>/docs/shortcodes/section/</link>
+    <link>https://laojianzi.github.io/read-notes/docs/shortcodes/section/</link>
     <description>Recent content on Laojianzi Read Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	<atom:link href="/docs/shortcodes/section/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://laojianzi.github.io/read-notes/docs/shortcodes/section/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/docs/shortcodes/section/page1/</link>
+      <link>https://laojianzi.github.io/read-notes/docs/shortcodes/section/page1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/shortcodes/section/page1/</guid>
+      <guid>https://laojianzi.github.io/read-notes/docs/shortcodes/section/page1/</guid>
       <description>Page 1 #  </description>
     </item>
     
     <item>
       <title></title>
-      <link>/docs/shortcodes/section/page2/</link>
+      <link>https://laojianzi.github.io/read-notes/docs/shortcodes/section/page2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/docs/shortcodes/section/page2/</guid>
+      <guid>https://laojianzi.github.io/read-notes/docs/shortcodes/section/page2/</guid>
       <description>Page 2 #  </description>
     </item>
     
