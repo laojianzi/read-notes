@@ -43,57 +43,7 @@
   </url>
   
   <url>
-    <loc>https://laojianzi.github.io/read-notes/categories/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/categories/Development/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/development/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://laojianzi.github.io/read-notes/posts/hugoisforlovers/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/go/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/golang/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/categories/golang/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/hugo/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/templates/</loc>
-    <lastmod>2020-06-16T18:32:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://laojianzi.github.io/read-notes/tags/themes/</loc>
     <lastmod>2020-06-16T18:32:23+08:00</lastmod>
   </url>
   
@@ -185,6 +135,10 @@
   <url>
     <loc>https://laojianzi.github.io/read-notes/</loc>
     <lastmod>2020-06-16T18:32:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://laojianzi.github.io/read-notes/read-notes/</loc>
   </url>
   
 </urlset>
