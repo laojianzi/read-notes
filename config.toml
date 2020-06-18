@@ -11,3 +11,9 @@ googleAnalytics = "UA-169931220-1"
 
 [params]
     BookRepo = "https://github.com/laojianzi/read-notes"
+    description = "记录阅读中的点点滴滴"
+    images = ["images/author.jpeg"]
+    title = "Laojianzi Read Notes"
+
+[taxonomies]
+    series = "read notes"

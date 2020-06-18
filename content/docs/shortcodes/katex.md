@@ -1,3 +1,13 @@
+---
+audio: []
+date: "2020-06-18"
+description: KaTeX shortcode let you render math typesetting in markdown document. See [KaTeX](https://katex.org/)
+series: []
+tags: []
+title: Katex
+videos: []
+---
+
 # KaTeX
 
 KaTeX shortcode let you render math typesetting in markdown document. See [KaTeX](https://katex.org/)
