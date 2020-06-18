@@ -7,5 +7,7 @@ disablePathToLower = true
 enableGitInfo = true
 disqusShortname = "Laojianzi"
 
+googleAnalytics = "UA-169931220-1"
+
 [params]
     BookRepo = "https://github.com/laojianzi/read-notes"
