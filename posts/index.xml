@@ -7,6 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language><atom:link href="https://laojianzi.github.io/read-notes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>MDAvatar v1.0.1 圆形支持 - 说肝就肝</title>
+      <link>https://laojianzi.github.io/read-notes/posts/mdavatar-released-v1.0.1/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://laojianzi.github.io/read-notes/posts/mdavatar-released-v1.0.1/</guid>
+      <description>刚发布 v1.0.0 MDAvatar 头像生成器 v1.0.0 [支持中文] 不久，觉得圆形还是比较刚需，其实也可以 方形图 + css 实现 web 的圆形 img
+不过&amp;hellip;&amp;hellip;
+ 支持总好过不支持
+  Release v1.0.1 #  https://github.com/laojianzi/mdavatar/releases/tag/v1.0.1
+Added #   支持多种 style 构建头像 添加圆形头像构建的 style  package main import ( &amp;#34;fmt&amp;#34; &amp;#34;image/png&amp;#34; &amp;#34;log&amp;#34; &amp;#34;os&amp;#34; &amp;#34;time&amp;#34; &amp;#34;github.com/laojianzi/mdavatar&amp;#34; &amp;#34;github.com/laojianzi/mdavatar/style&amp;#34; ) func main() { avatar, err := mdavatar.New(&amp;#34;MDAvatar&amp;#34;).Builds(style.NewCircle) if err != nil { log.Fatal(err) } filename := fmt.Sprintf(&amp;#34;mdavatar-circle-%d.png&amp;#34;, time.Now().Unix()) file, err := os.Create(filename) if err !</description>
+    </item>
+    
+    <item>
       <title>MDAvatar 头像生成器 v1.0.0 [支持中文]</title>
       <link>https://laojianzi.github.io/read-notes/posts/mdavatar-released-v1.0.0/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>

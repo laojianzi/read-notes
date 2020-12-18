@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="MDAvatar 可以根据字符串生成单字符头像，并且可以高度自定义，支持生成中文头像">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="MDAvatar v1.0.1 圆形支持 - 说肝就肝 | Laojianzi Read Notes" />
+<meta property="og:description" content="MDAvatar 可以根据字符串生成单字符头像，并且可以高度自定义，支持生成中文头像" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://laojianzi.github.io/read-notes/posts/mdavatar-released-v1.0.1/" />
+<meta property="og:image" content="https://laojianzi.github.io/read-notes/images/author.jpeg"/>
+<meta property="article:published_time" content="2020-12-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-18T17:05:37+08:00" /><meta property="og:site_name" content="Laojianzi Read Notes" />
+
+
+<title>MDAvatar v1.0.1 圆形支持 - 说肝就肝 | Laojianzi Read Notes</title>
+<link rel="manifest" href="/read-notes/manifest.json">
+<link rel="icon" href="/read-notes/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/read-notes/book.min.6cd8553a6854f4812343f0f0c8baca31271e686434f381fbe3c7226f66639176.css" integrity="sha256-bNhVOmhU9IEjQ/DwyLrKMSceaGQ084H748cib2ZjkXY=">
+<script defer src="/read-notes/en.search.min.3f5cae71a5f574dd5e914c00a976197b93bd28e3c55468d83ddb349ab8d136e6.js" integrity="sha256-P1yucaX1dN1ekUwAqXYZe5O9KOPFVGjYPds0mrjRNuY="></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-169931220-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/read-notes"><span>Laojianzi Read Notes</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>基础阶段</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/read-notes/docs/basic/how-computers-work/" class="collapsed ">计算机是怎么连接的</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>进阶阶段</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/read-notes/docs/advanced/csapp/" class="">CSAPP (TODO)</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>实战阶段</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="/read-notes/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/read-notes/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>MDAvatar v1.0.1 圆形支持 - 说肝就肝</strong>
+
+  <label for="toc-control">
+    
+    <img src="/read-notes/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#release-v101">Release v1.0.1</a>
+      <ul>
+        <li><a href="#added">Added</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#项目">项目</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/read-notes/posts/mdavatar-released-v1.0.1/">MDAvatar v1.0.1 圆形支持 - 说肝就肝</a>
+  </h1>
+  
+  <h5>December 2, 2020</h5>
+
+
+
+  
+
+
+  <p><p>刚发布 v1.0.0 <a href="/read-notes/posts/mdavatar-released-v1.0.0">MDAvatar 头像生成器 v1.0.0 [支持中文]</a> 不久，觉得圆形还是比较刚需，其实也可以 <code>方形图 + css</code> 实现 web 的圆形 img</p>
+<p>不过&hellip;&hellip;</p>
+<blockquote>
+<p>支持总好过不支持</p>
+</blockquote>
+<hr>
+<h2 id="release-v101">
+  Release v1.0.1
+  <a class="anchor" href="#release-v101">#</a>
+</h2>
+<p><a href="https://github.com/laojianzi/mdavatar/releases/tag/v1.0.1">https://github.com/laojianzi/mdavatar/releases/tag/v1.0.1</a></p>
+<h3 id="added">
+  Added
+  <a class="anchor" href="#added">#</a>
+</h3>
+<ul>
+<li>支持多种 <code>style</code> 构建头像</li>
+<li>添加圆形头像构建的 <code>style</code></li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+	<span style="color:#e6db74">&#34;fmt&#34;</span>
+	<span style="color:#e6db74">&#34;image/png&#34;</span>
+	<span style="color:#e6db74">&#34;log&#34;</span>
+	<span style="color:#e6db74">&#34;os&#34;</span>
+	<span style="color:#e6db74">&#34;time&#34;</span>
+
+	<span style="color:#e6db74">&#34;github.com/laojianzi/mdavatar&#34;</span>
+	<span style="color:#e6db74">&#34;github.com/laojianzi/mdavatar/style&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+	<span style="color:#a6e22e">avatar</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">mdavatar</span>.<span style="color:#a6e22e">New</span>(<span style="color:#e6db74">&#34;MDAvatar&#34;</span>).<span style="color:#a6e22e">Builds</span>(<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">NewCircle</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+	}
+
+	<span style="color:#a6e22e">filename</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Sprintf</span>(<span style="color:#e6db74">&#34;mdavatar-circle-%d.png&#34;</span>, <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Now</span>().<span style="color:#a6e22e">Unix</span>())
+	<span style="color:#a6e22e">file</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">os</span>.<span style="color:#a6e22e">Create</span>(<span style="color:#a6e22e">filename</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+	}
+
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">png</span>.<span style="color:#a6e22e">Encode</span>(<span style="color:#a6e22e">file</span>, <span style="color:#a6e22e">avatar</span>); <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#a6e22e">log</span>.<span style="color:#a6e22e">Fatal</span>(<span style="color:#a6e22e">err</span>)
+	}
+}
+</code></pre></div><p><img src="https://static.gocn.vip/photo/2020/7915dcf2-ea9c-4d24-a440-91b87e28917c.png?x-oss-process=image/resize,w_1920" alt="" /></p>
+<h2 id="参考">
+  参考
+  <a class="anchor" href="#%e5%8f%82%e8%80%83">#</a>
+</h2>
+<ul>
+<li><a href="https://blog.golang.org/image-draw">https://blog.golang.org/image-draw</a></li>
+</ul>
+<h2 id="项目">
+  项目
+  <a class="anchor" href="#%e9%a1%b9%e7%9b%ae">#</a>
+</h2>
+<p>欢迎大家使用 <a href="https://github.com/laojianzi/mdavatar">MDAvatar</a></p>
+<p>如果喜欢帮忙 Srat 和 Fork，如果有疑问可以提 <a href="https://github.com/laojianzi/mdavatar/issues">Issue</a> 或者 <a href="mailto:laojianzi1994@gmail.com">Email</a></p>
+<ul>
+<li>Require <code>go</code> version &gt;= <code>1.13</code></li>
+<li>Require <code>go mod</code> enable</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ go get -u github.com/laojianzi/mdavatar
+</code></pre></div><p><strong>Github</strong>: <a href="https://github.com/laojianzi/mdavatar">https://github.com/laojianzi/mdavatar</a></p>
+<p>感谢你阅读本文</p>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/laojianzi/read-notes/commit/e5282e305501a9edf574937ca39a6298c67eb8cf" title='Last modified by laojianzi | December 18, 2020' target="_blank" rel="noopener">
+      <img src="/read-notes/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>December 18, 2020</span>
+    </a>
+  </div>
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments"><script src="https://utteranc.es/client.js"
+  repo="laojianzi/read-note-comments"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#release-v101">Release v1.0.1</a>
+      <ul>
+        <li><a href="#added">Added</a></li>
+      </ul>
+    </li>
+    <li><a href="#参考">参考</a></li>
+    <li><a href="#项目">项目</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
