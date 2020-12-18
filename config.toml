@@ -6,7 +6,6 @@ theme = "book"
 disablePathToLower = true
 enableGitInfo = true
 disqusShortname = "Laojianzi"
-
 googleAnalytics = "UA-169931220-1"
 
 [params]
@@ -14,6 +13,7 @@ googleAnalytics = "UA-169931220-1"
     description = "记录阅读中的点点滴滴"
     images = ["images/author.jpeg"]
     title = "Laojianzi Read Notes"
+    enableGitInfo = true
 
 [taxonomies]
     series = "read notes"

@@ -1,41 +1,29 @@
 ---
-title: Introduction
+title: Laojianzi Read Note
 type: docs
 ---
 
-# Acerbo datus maxime
+# 读书计划
 
-{{< columns >}}
-## Astris ipse furtiva
+计划将分成多个阶段进行
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+1. **基础阶段**: 主要进行一些关于计算机基础的数据，如 CS 的四大类
+2. **进阶阶段**: 对 `基础阶段` 的知识进阶
+3. **实战阶段**: 看一些操作类/实现类的内容，不限于书籍
 
-<--->
+## 基础阶段
 
-## Suis quot vota
+- 《计算机是怎么跑起来的》
+- 《程序是怎么跑起来的》
+- 《网络是怎么连接的》
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
+## 进阶阶段
+
+- 《CSAPP》
+- 《计算机网络：自顶向下方法》
 
 
-## Tempora nisi nunc
+## 实战阶段
 
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+- 《HTTP 权威指南》
+- 《TCP/IP 协议》
